@@ -24,7 +24,7 @@ spec:
       containers:
       - name: portfolio
         # REPLACE THIS with your actual ECR image URI
-        image: 851725341232.dkr.ecr.us-east-1.amazonaws.com/portfolio-website
+        image: <YOUR_AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/portfolio-website:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
