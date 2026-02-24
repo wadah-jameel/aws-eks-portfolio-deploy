@@ -13,6 +13,8 @@ Deploy Portfolio Website on EKS Cluster
 
 ## Step 2: Create the EKS cluster
 
+### Via AWS console: 
+
   ### - Select Custom Configuration
   ### - Ensure EKS Auto Mode is switched OFF 
   ### - Name: dem-eks
@@ -24,6 +26,14 @@ Deploy Portfolio Website on EKS Cluster
   ### - Select add-ons: Leave as default-setting
   ### - Configure selected add-ons settings: Leave as default-setting
 
+### Via AWS CLI:
+
+```bash
+aws eks create-cluster \
+  --name dem-eks \
+  --role-arn arn:aws:iam::<ACCOUNT_ID>:role/eksClusterRole \
+  --resources-vpc-config subnetIds=<SUBNET_ID_1>,<SUBNET_ID_2>,securityGroupIds=<SECURITY_GROUP_ID>
+```
 
 ## Step 3: Enable kubectl to communicate with your cluster
 
