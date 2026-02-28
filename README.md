@@ -4,7 +4,7 @@ Deploying a Portfolio Website on AWS EKS with Amazon ECR
 
 -----------------------------------------------------------
 
-##Project Overview
+## Project Overview
 
 This project demonstrates how to containerize and deploy a personal portfolio website to Amazon Elastic Kubernetes Service (EKS) using Amazon Elastic Container Registry (ECR) for secure image storage.
 
@@ -48,7 +48,7 @@ Expose application via AWS Load Balancer
 
 ---------------------------------------------------------------
 
-Technologies Used
+## Technologies Used
 
 Amazon Web Services
 
