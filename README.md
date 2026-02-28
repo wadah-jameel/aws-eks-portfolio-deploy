@@ -4,11 +4,11 @@ Deploying a Portfolio Website on AWS EKS with Amazon ECR
 
 -----------------------------------------------------------
 
-Project Overview
+##Project Overview
 
-### This project demonstrates how to containerize and deploy a personal portfolio website to Amazon Elastic Kubernetes Service (EKS) using Amazon Elastic Container Registry (ECR) for secure image storage.
+This project demonstrates how to containerize and deploy a personal portfolio website to Amazon Elastic Kubernetes Service (EKS) using Amazon Elastic Container Registry (ECR) for secure image storage.
 
-### The goal of this project is to showcase real-world DevOps practices including containerization, Kubernetes orchestration, cloud-native deployment, and infrastructure security in AWS.
+The goal of this project is to showcase real-world DevOps practices including containerization, Kubernetes orchestration, cloud-native deployment, and infrastructure security in AWS.
 
 ## step 1: Create an EKS cluster service role
 
@@ -16,53 +16,53 @@ Project Overview
 
 ----------------------------------------------------------
 
-Architecture
+## Architecture
 
-### Docker – Containerize the portfolio application
+Docker – Containerize the portfolio application
 
-### Amazon ECR – Store and manage Docker images securely
+Amazon ECR – Store and manage Docker images securely
 
-### Amazon EKS – Managed Kubernetes cluster for container orchestration
+Amazon EKS – Managed Kubernetes cluster for container orchestration
 
-### kubectl – Deploy and manage Kubernetes resources
+kubectl – Deploy and manage Kubernetes resources
 
-### AWS IAM – Role-based access control
+AWS IAM – Role-based access control
 
-### AWS VPC – Secure networking environment
+AWS VPC – Secure networking environment
 
-### LoadBalancer Service – Expose the application publicly
+LoadBalancer Service – Expose the application publicly
 
 ------------------------------------------------------------
 
-High-Level Flow:
+## High-Level Flow:
 
-### Build Docker image locally
+Build Docker image locally
 
-### Push image to Amazon ECR
+Push image to Amazon ECR
 
-### Create EKS cluster
+Create EKS cluster
 
-### Deploy Kubernetes manifests
+Deploy Kubernetes manifests
 
-### Expose application via AWS Load Balancer
+Expose application via AWS Load Balancer
 
 ---------------------------------------------------------------
 
 Technologies Used
 
-### Amazon Web Services
+Amazon Web Services
 
-### Amazon Elastic Kubernetes Service (EKS)
+Amazon Elastic Kubernetes Service (EKS)
 
-### Amazon Elastic Container Registry (ECR)
+Amazon Elastic Container Registry (ECR)
 
-### Docker
+Docker
 
-### Kubernetes
+Kubernetes
 
-### kubectl
+kubectl
 
-### GitHub
+GitHub
 
 
 -----------------------------------------------------------------
